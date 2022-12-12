@@ -1,0 +1,237 @@
+
+
+.Form-User {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 500px;
+}
+
+
+.header {
+    height: 60px;
+    display: block;
+    border: solid;
+}
+
+ul.breadcrumb {
+    display: block;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////////// */
+.row-costum {
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col-costum {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-30 {
+    height: 500px;
+    width: 30%;
+
+}
+
+.col-50 {
+    width: 70%;
+
+}
+
+.col-505 {
+    width: 50%;
+
+}
+
+.col-30>h4 {
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.col-50>h4 {
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.col-505 form h4 {
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.col-30>li>a {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.col-30>li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-30>li>a:hover {
+    color: red;
+}
+
+.row-costum .col-costum label {
+    display: block;
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+    font-weight: bolder;
+
+}
+
+.row-costum .col-costum label>a {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+    font-weight: bolder;
+
+}
+
+.col-50 form {
+    display: block;
+    width: 700px;
+    margin-bottom: 15px;
+    /* border: none; */
+}
+
+.col-50 .form-inner .form-group input {
+    display: block;
+    width: 200%;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    transition: 0.4s;
+
+}
+
+form .form-inner input[type="submit"]:hover {
+    background-position: 100% 0%;
+
+}
+
+
+.checkout-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.checkout-price {
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 95px;
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+.checkout-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.checkout-product-image {
+    width: 400px;
+}
+
+.checkout-button .text-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 4px;
+    margin: auto;
+    text-align: left;
+    margin-left: 16px;
+}
+
+.checkout-button .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+.separator {
+    width: 300px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+}
+
+.paypal {
+    display: grid;
+    gap: 20px;
+}
+
+.paypal-button-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 46.1875em) and (max-width:69.9375em){
+    .row .col-30 {
+        width: 50%;
+    
+    }
+}
+.check_order{
+    margin-bottom:50vw;
+}
+.info_background{
+    margin-bottom: 80vh;
+    margin-top: 10;
+    padding: 20px;
+    margin-left: 20vw;
+    margin-right: 10vw;
+}
+.text-center {
+    margin-bottom:50px;
+    margin-top:50px;
+}
